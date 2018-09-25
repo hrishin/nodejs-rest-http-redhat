@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-@Library('github.com/hrishin/osio-pipeline@spwan')_
+@Library('github.com/hrishin/osio-pipeline@fix-spawn')_
 
 osio {
     
