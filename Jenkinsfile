@@ -16,19 +16,7 @@ osio {
 
       echo "-------------- build default ----------------------------"
       build resources: resources
-      echo "-------------- build separate ----------------------------"
-      build resources: [
-        [ BuildConfig: resources.BuildConfig],
-        [ImageStream: resources.ImageStream],
-      ]
-
-      // echo "-------------- build commands ---------------------------"
-      // // test passing in commands
-      // build app: app, commands: """
-      //   npm version
-      //   oc version
-      // """
-
+  
       echo "-------------- deploy -----------------------------------"
       deploy resources: resources, env: 'stage'
 
