@@ -108,7 +108,7 @@ objects:
                 periodSeconds: 3
                 successThreshold: 1
                 timeoutSeconds: 1
-              image: ""
+              image: "nodejs-http-rest${SUFFIX_NAME}"
               name: nodejs-http-rest
               securityContext:
                 privileged: false
