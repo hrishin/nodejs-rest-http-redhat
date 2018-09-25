@@ -1,9 +1,8 @@
 #!/usr/bin/groovy
-@Library('github.com/fabric8io/osio-pipeline@master')_
+@Library('github.com/hrishin/osio-pipeline@spawn')_
 
 osio {
-    config runtime: 'node'
-
+    
     ci {
         def app = processTemplate()
         build app: app
