@@ -2,7 +2,7 @@
 @Library('github.com/hrishin/osio-pipeline@fix-spawn')_
 
 osio {
-    config runtime: 'node'
+    config runtime: 'oc'
 
     ci {
         def app = processTemplate()
