@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-@Library('github.com/hrishin/osio-pipeline@prefix-issue')_
+@Library('github.com/hrishin/osio-pipeline@fix-spawn')_
 
 osio {
     config runtime: 'node'
